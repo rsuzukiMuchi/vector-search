@@ -1,0 +1,8 @@
+[theme]
+# テーマの設定
+base="light"  # "light" または "dark" を選択
+primaryColor="#4CAF50"  # プライマリカラー
+backgroundColor="#FFFFFF"  # 背景色
+secondaryBackgroundColor="#F0F0F0"  # セカンダリ背景色
+textColor="#333333"  # テキストカラー
+font="sans serif"  # フォントスタイル

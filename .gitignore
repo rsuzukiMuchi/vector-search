@@ -1,0 +1,8 @@
+# デプロイ用のキー
+/app/key/credentials.json
+
+# 仮想環境
+venv/
+
+#
+.env
