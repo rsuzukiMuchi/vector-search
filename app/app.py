@@ -16,7 +16,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # cloud run での build 用
-credentials_path = os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
+#credentials_path = os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
+
+# ローカルでの実行用
+credentials_path = "./key/credentials.json"
 
 # Vertex AI の設定
 project_id = "suzu-develop-stg"  # Google Cloud Project ID を設定
